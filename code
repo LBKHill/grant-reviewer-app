@@ -1,0 +1,20 @@
+# Step into your project folder
+cd path/to/your/project-folder
+
+# Initialize a new Git repo
+git init
+
+# Add all files in the folder
+git add .
+
+# Commit the files
+git commit -m "Initial commit"
+
+# Add the remote GitHub repo (replace with your actual GitHub URL)
+git remote add origin https://github.com/alexsmith/grant-reviewer-app.git
+
+# Set the default branch to main
+git branch -M main
+
+# Push the code to GitHub
+git push -u origin main
